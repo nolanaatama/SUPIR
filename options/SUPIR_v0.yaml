@@ -1,7 +1,7 @@
 model:
   target: SUPIR.models.SUPIR_model.SUPIRModel
   params:
-    ae_dtype: bf16
+    ae_dtype: fp32
     diffusion_dtype: fp16
     scale_factor: 0.13025
     disable_first_stage_autocast: True
